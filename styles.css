@@ -4,8 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: rgb(184, 12, 40);
-
+    --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    font-weight:400 ;
+    font-weight: 400;
 }
 
 * {
@@ -24,10 +23,9 @@ body {
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain ;
+    background-size: contain;
     align-items: center;
     text-align: center;
-    
 }
 
 .container {
@@ -36,21 +34,19 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.container__botao { 
+.container__botao {
     background-color: var(--botao-azul);
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
-   
 }
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal);
-    
+    border: 2px solid var(--branco-principal)
 }
 
 .container__aviso {
@@ -88,7 +84,7 @@ body {
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario)
+    color: var(--cinza-secundario);
 }
 
 .secundario__botao {
@@ -126,39 +122,34 @@ body {
     margin: 5em 3em;
 }
 
-.rodape__logo {
-    margin-left: 50% ;
-}
-
 .rodape__lista {
     display: flex;
     justify-content: center;
-    margin: 1em;
     list-style-type: none;
-    flex-grow: 1;
-    text-decoration: none;
+    margin-top: 1em;
 }
 
-.lista__link {
+.lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
-    margin: 1em;
+    margin-left: 1em;
 }
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
 .lista__link a:hover {
     color: var(--botao-azul);
 }
 
 .lista__link a:active {
-    color: yellow;
+    color: purple;
 }
 
 .container__botao:hover {
-    color: var(--botao-azul-efeito);
-    background-color: white;
-}
-
-.rodape__texto {
-  margin: 1em;
-  color: var(--cinza-secundario);
-  font-size: 14px;
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
