@@ -19,3 +19,17 @@ segungoLink.textContent = 'Assinar somente o Alura+';
 
 const paragrafoPrincipal = document.querySelector('.container__aviso');
 paragrafoPrincipal.textContent = '*O preço pode variar caso a assinatura seja feita em outros planos.';
+
+//Segundo Container
+
+const segundaImagem = document.querySelector('.secundario__imagem');
+segundaImagem.src = 'img/plataformas.png';
+segundaImagem.alt = 'Um monitor e um celular com a alura plus aberta';
+
+const segundoTitulo = document.querySelector('.descricao__titulo');
+segundoTitulo.textContent = 'Assista do seu jeito';
+
+const terceiroTitulo = document.querySelector('.descricao__texto');
+terceiroTitulo.textContent = 'Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.';
+
+
