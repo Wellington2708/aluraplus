@@ -32,4 +32,17 @@ segundoTitulo.textContent = 'Assista do seu jeito';
 const terceiroTitulo = document.querySelector('.descricao__texto');
 terceiroTitulo.textContent = 'Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.';
 
+//Terceiro Container
+
+const terceiroParagrago = document.querySelector('.terceiro__paragrafo');
+terceiroParagrago.textContent = 'Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.';
+
+const terceiroLink = document.querySelector('.secundario__botao');
+terceiroLink.href = 'https://www.alura.com.br/';
+terceiroLink.target = '_blank';
+terceiroLink.textContent = 'Assine o Combo+';
+
+const imagemTelas = document.querySelector('.telas');
+imagemTelas.src = 'img/Telas.png';
+imagemTelas.alt = 'Tela do alura+ e alura língua';
 
