@@ -58,5 +58,30 @@ quartoTitulo.textContent = 'Baixe seus cursos';
 const quartoParagrafo = document.querySelector('.quarto__paragrafo');
 quartoParagrafo.textContent = 'Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.';
 
+//Quinto Container
+
+const quintoTitulo = document.querySelector('.quinto__titulo');
+quintoTitulo.textContent = 'Disponível nos seus dispositivos favoritos';
+
+const imgTv = document.querySelector('.tv');
+imgTv.src = 'img/tv.png';
+imgTv.alt = 'Ícone de televisão';
+
+const descricaoTv = document.querySelector('.listaTv');
+descricaoTv.textContent = 'TV';
+
+const imgComputador = document.querySelector('.computador');
+imgComputador.src = 'img/computador.png';
+imgComputador.alt = 'Ícone de computador';
+
+const descricaoComputador = document.querySelector('.listaComputador');
+descricaoComputador.textContent = 'Computador';
+
+const imgCelular = document.querySelector('.celular');
+imgCelular.src = 'img/celular.png';
+imgCelular.alt = 'Ícone de celular';
+
+const descricaoCelular = document.querySelector('.lista__celular');
+descricaoCelular.textContent = 'Celular';
 
 
