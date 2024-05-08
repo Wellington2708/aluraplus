@@ -46,3 +46,17 @@ const imagemTelas = document.querySelector('.telas');
 imagemTelas.src = 'img/Telas.png';
 imagemTelas.alt = 'Tela do alura+ e alura língua';
 
+//Quarto Container
+
+const imagemNotebook = document.querySelector('.imgNotebook');
+imagemNotebook.src = 'img/Notebook.png';
+imagemNotebook.alt = 'Notebook com a página do curso HTML5 e CSS3 da Alura aberta';
+
+const quartoTitulo = document.querySelector('.quarto__titulo');
+quartoTitulo.textContent = 'Baixe seus cursos';
+
+const quartoParagrafo = document.querySelector('.quarto__paragrafo');
+quartoParagrafo.textContent = 'Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.';
+
+
+
